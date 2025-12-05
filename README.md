@@ -2,7 +2,6 @@
 ![Python](https://img.shields.io/badge/Python-3.11%2B-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.29.0-FF4B4B)
 ![Model](https://img.shields.io/badge/Model-PhoBERT-yellow)
-![License](https://img.shields.io/badge/License-MIT-green)
 Ứng dụng phân loại cảm xúc tiếng Việt sử dụng **PhoBERT** và **Streamlit**.
 
 ## ✨ Tính Năng
