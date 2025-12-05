@@ -1,26 +1,29 @@
-# 😊 Vietnamese Sentiment Assistant
-
+#  Vietnamese Sentiment Assistant
+![Python](https://img.shields.io/badge/Python-3.11%2B-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.29.0-FF4B4B)
+![Model](https://img.shields.io/badge/Model-PhoBERT-yellow)
+![License](https://img.shields.io/badge/License-MIT-green)
 Ứng dụng phân loại cảm xúc tiếng Việt sử dụng **PhoBERT** và **Streamlit**.
 
 ## ✨ Tính Năng
 
-- 🎯 **Phân loại cảm xúc**: POSITIVE, NEUTRAL, NEGATIVE
-- 🇻🇳 **Xử lý tiếng Việt**: Hỗ trợ viết tắt, thiếu dấu, cụm từ đặc biệt
-- 💾 **Lưu lịch sử**: Lưu lịch sử phân loại vào SQLite database
-- 🎨 **Giao diện thân thiện**: Streamlit UI đẹp mắt, dễ sử dụng
-- 🔄 **Chuẩn hóa văn bản**: Tự động chuẩn hóa văn bản tiếng Việt
+-  **Phân loại cảm xúc**: POSITIVE, NEUTRAL, NEGATIVE
+-  **Xử lý tiếng Việt**: Hỗ trợ viết tắt, thiếu dấu, cụm từ đặc biệt
+-  **Lưu lịch sử**: Lưu lịch sử phân loại vào SQLite database
+-  **Giao diện thân thiện**: Streamlit UI đẹp mắt, dễ sử dụng
+-  **Chuẩn hóa văn bản**: Tự động chuẩn hóa văn bản tiếng Việt
 
-## 🚀 Cài Đặt
+##  Cài Đặt
 
 ### Yêu Cầu
 
-- Python 3.8+
+- Python 3.8 đến 3.11 (khuyên dùng 3.11)
 - pip
 
 ### Bước 1: Clone Repository
 
 ```bash
-git clone https://github.com/username/Sentiment_Assistant.git
+git clone https://github.com/MKha546/Sentiment_Assistant.git
 cd Sentiment_Assistant
 ```
 
@@ -29,7 +32,7 @@ cd Sentiment_Assistant
 ```bash
 # Windows
 python -m venv venv
-venv\Scripts\activate
+.\venv\Scripts\activate
 
 # Linux/Mac
 python3 -m venv venv
@@ -57,7 +60,7 @@ streamlit run streamlit_app.py
 - **Pipeline**: `sentiment-analysis`
 - **Architecture**: PhoBERT (Vietnamese RoBERTa)
 
-## 🏗️ Kiến Trúc
+##  Kiến Trúc
 
 ```
 Input Text (Tiếng Việt)
@@ -143,9 +146,9 @@ Project này được phát hành dưới MIT License.
 
 ## 👤 Tác Giả
 
-[Your Name]
+[MINH KHA]
 
-## 🙏 Cảm Ơn
+##  Cảm Ơn
 
 - **VinAI Research** - PhoBERT model
 - **Hugging Face** - Transformers library
